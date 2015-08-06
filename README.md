@@ -4,7 +4,7 @@ Parameterized star layout for CraftML by doubleshow
 ### Usage
 ```html
 <craft>
-    <craft name="star-layout" module="VJ5Xl"/>
+    <craft name="star-layout" module="star-layout"/>
 </craft>
 ```
 
@@ -15,7 +15,7 @@ Parameterized star layout for CraftML by doubleshow
 ### Example
 ```html
 <craft>
-    <craft name="star-layout" module="VJ5Xl"/>
+    <craft name="star-layout" module="star-layout"/>
     <repeat n="10">
         <prism transform="scale(0.5)"></cube>
     </repeat>
