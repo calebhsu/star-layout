@@ -16,9 +16,11 @@ Parameterized star layout for CraftML by doubleshow
 ```html
 <craft>
     <craft name="star-layout" module="star-layout"/>
-    <repeat n="10">
-        <prism transform="scale(0.5)"></cube>
-    </repeat>
+    <star-layout>
+        <repeat n="10">
+            <prism transform="scale(0.5)"></cube>
+        </repeat>
+    </star-layout>
 </craft>
 ```
 
