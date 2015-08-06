@@ -1,0 +1,22 @@
+{
+  "name": "star-layout",
+  "version": "1.0.0",
+  "description": "Parameterized star layout for CraftML - by doubleshow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calebhsu/star-layout.git"
+  },
+  "keywords": [
+    "craftml"
+  ],
+  "author": "Tom Yeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calebhsu/star-layout/issues"
+  },
+  "homepage": "https://github.com/calebhsu/star-layout"
+}

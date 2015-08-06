@@ -1,0 +1,30 @@
+<craft name="star-layout" grouping="off">
+    <parameter name="radius" default="10" type="int"/>
+    <content>
+        <repeat n="10">
+            <cube transform="scale(0.3)"></cube>
+        </repeat>
+    </content>
+    <script>
+        var n = scope.solids.length
+        
+        var r = params.radius, theta = 0
+        var delta = 2 * Math.PI / n
+        var ps = []
+        for (var i = 0; i < n; i++){
+            
+            var solid = scope.solids[i]
+
+            var loc = {
+                x: r * Math.cos(theta) + solid.layout.position.x/2,
+                y: r * Math.sin(theta) + solid.layout.position.y/2,
+                z: 0
+            }
+            var angle = 360/n * i
+
+            solid.translateTo(loc)
+            solid.rotate('z', angle)
+            theta = theta + delta
+        }
+    </script>
+</craft>

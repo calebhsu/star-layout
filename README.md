@@ -1,2 +1,26 @@
 # star-layout
-Star layout for CraftML - by doubleshow
+Parameterized star layout for CraftML by doubleshow
+
+### Usage
+```html
+<craft>
+    <craft name="star-layout" module="VJ5Xl"/>
+</craft>
+```
+
+### Parameters
+- radius: adjusts radius of item arrangement
+    - default: 10
+
+### Example
+```html
+<craft>
+    <craft name="star-layout" module="VJ5Xl"/>
+    <repeat n="10">
+        <prism transform="scale(0.5)"></cube>
+    </repeat>
+</craft>
+```
+
+![example](example.png)
+
